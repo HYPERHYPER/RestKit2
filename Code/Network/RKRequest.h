@@ -470,6 +470,16 @@ typedef void(^RKRequestDidFailLoadWithErrorBlock)(NSError *error);
  */
 @property (nonatomic, retain) NSString *OAuth1AccessTokenSecret;
 
+/**
+ The OAuth 1.0 access token verifier
+ 
+ Used to build an Authorization header when authenticationType is
+ RKRequestAuthenticationTypeOAuth1
+ 
+ @see authenticationType
+ */
+@property (nonatomic, retain) NSString *OAuth1AccessTokenVerifier;
+
 
 ///-----------------------------------------------------------------------------
 /// @name OAuth2 Secrets

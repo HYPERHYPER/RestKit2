@@ -80,6 +80,7 @@ NSString *RKPathAppendQueryParams(NSString *resourcePath, NSDictionary *queryPar
 @synthesize OAuth1ConsumerSecret = _OAuth1ConsumerSecret;
 @synthesize OAuth1AccessToken = _OAuth1AccessToken;
 @synthesize OAuth1AccessTokenSecret = _OAuth1AccessTokenSecret;
+@synthesize OAuth1AccessTokenVerifier = _OAuth1AccessTokenVerifier;
 @synthesize OAuth2AccessToken = _OAuth2AccessToken;
 @synthesize OAuth2RefreshToken = _OAuth2RefreshToken;
 @synthesize HTTPHeaders = _HTTPHeaders;

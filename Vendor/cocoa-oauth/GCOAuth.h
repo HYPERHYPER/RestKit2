@@ -71,7 +71,8 @@
                         consumerKey:(NSString *)consumerKey
                      consumerSecret:(NSString *)consumerSecret
                         accessToken:(NSString *)accessToken
-                        tokenSecret:(NSString *)tokenSecret;
+                        tokenSecret:(NSString *)tokenSecret
+                           verifier:(NSString *)verifier;
 
 /*
  Creates and returns a URL request that will perform a GET HTTP operation. All

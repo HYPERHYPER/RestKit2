@@ -26,6 +26,7 @@
 #import "RKDotNetDateFormatter.h"
 #import "RKDirectory.h"
 #import "RKBenchmark.h"
+#import "GCOAuth.h"
 
 // Load our categories
 #import "NSDictionary+RKAdditions.h"
