@@ -256,6 +256,13 @@ NSString *RKPathAppendQueryParams(NSString *resourcePath, NSDictionary *queryPar
     request.OAuth1ConsumerKey = self.OAuth1ConsumerKey;
     request.OAuth1ConsumerSecret = self.OAuth1ConsumerSecret;
 
+    
+    request.OAuth1AccessToken = self.OAuth1AccessToken;
+    request.OAuth1AccessTokenSecret = self.OAuth1AccessTokenSecret;
+    request.OAuth1ConsumerKey = self.OAuth1ConsumerKey;
+    request.OAuth1ConsumerSecret = self.OAuth1ConsumerSecret;
+    request.OAuth1AccessTokenVerifier = self.OAuth1AccessTokenVerifier;
+    
     // OAuth2 Parameters
     request.OAuth2AccessToken = self.OAuth2AccessToken;
     request.OAuth2RefreshToken = self.OAuth2RefreshToken;
